@@ -39,6 +39,7 @@ Nota: se o seu sistema operacional não estiver listado entre as versões da ext
 #### Exemplo usando php8.1
 
 * Edite seu `php.ini` em `/etc/php/8.1/apache2` ou `/etc/php/8.1/cgi` ou `/etc/php/8.1/cli` ou `/etc/php/8.1/fpm`. Se você não conhece como seu servidor está configurado, edite todos estes arquivos adicionando apenas `extension=bolt` ao final do arquivo para evitar qualquer erro.
+
 Nota: o serviço `php8.1-fpm` é apenas para instalações que o possuam. Se você executa apache + php e não possui o serviço mencionado, pule-o em cada etapa.
 
 * Copie a extensão loader `bolt.so` de acordo com a arquitetura do seu sistema operacional e versão do php para `/usr/lib/php/20210902`.
@@ -67,6 +68,7 @@ composer install
 nano config.json
 ```
 Forneça credenciais somente leitura, por segurança.
+
 Nota: a variável `server_port` é do novo servidor que estamos configurando e pela qual ele irá fornecer as informações. As demais são do servidor do banco de dados.
 
 * Se você instalou a extensão e configurou as variáveis corretamente, está pronto para iniciar o servidor. Execute:
@@ -81,6 +83,7 @@ php server.php
 #### Exemplo usando o php7.4
 
 * Se sua instalação for no windows, é provável que sua versão php seja superior a 7.4. Portanto, faça o download em: **[php7.4](https://windows.php.net/downloads/releases/)**
+
 Nota: verifique se você está executando uma versão TS ou NTS e baixe o arquivo correspondente.
 
 * Extraia os arquivos em c:\xampp\php7
@@ -121,6 +124,7 @@ Listen 8070
    </FilesMatch>
 </VirtualHost>
 ```
+
 Nota: aqui nós definimos a porta 8070 para a execução do php7.4. Portanto, ao iniciar o servidor posteriormente, lembre-se que devemos configurar o lado cliente para a mesma porta.
 
 * Copie a extensão loader `php_bolt.dll` de acordo com a versão do php para `c:\xampp\php7\ext`.
@@ -172,6 +176,7 @@ composer install
 ##### Se houver erro, refaça os procedimentos. Então, continue.
 
 * Agora, certifique-se de possuir as credenciais de acesso ao servidor PostgreSQL. Edite o arquivo `config.json`. Forneça credenciais somente leitura, por segurança.
+
 Nota: a variável `server_port` é do novo servidor que estamos configurando e pela qual ele irá fornecer as informações. As demais são do servidor do banco de dados.
 
 * Se você instalou a extensão e configurou as variáveis corretamente, está pronto para iniciar o servidor. Execute:
@@ -183,6 +188,7 @@ php7 server.php
 ## Configurando a aplicação cliente
 
 * Entre em `c:\xampp\htdocs\painel_de_chamadas\cliente` ou `/var/www/html/painel_de_chamadas/cliente` e edite o arquivo `config.json`.
+
 Nota: a variável `server_port` e a mesma que configuramos no lado do servidor, enquanto `server_host` é o host onde o php está servindo os dados, pode ser `localhost` ou `localhost:8070`.
 
 * Abra a aplicação cliente no navegador e verifique o console, que dirá se a conexão com o servidor foi bem sucedida.
