@@ -199,8 +199,10 @@ Nota: como você pode verificar, a aplicação cliente usa programação procedu
 * Para não ter que iniciar o servidor manualmente, instale o arquivo `server.php` como um serviço no sistema.
 
 ## 😘 Contribua
-* Através de contribuição você recebe o arquivo de licença VITALÍCIO para sua instalação. São apenas R$ 23,00 para ajudar a manter o projeto e você recebe uma licença que não pode ser revogada, pois nenhum meio para isso foi implementado no código fonte.
+* Contribua e receba a licença VITALÍCIA. Apenas **R$ 23,00** para ajudar a manter o projeto.
 
-##### * CHAVE PIX => 95988028564
+* **CHAVE PIX => 95988028564**
 
 * Você ainda pode personalizar sua aplicação cliente da forma que desejar.
+
+Nota: se você chegou até o fim, o servidor e cliente estão se comunicando perfeitamente. Mas as informações só serão transmitidas com o arquivo da licença.
