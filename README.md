@@ -35,7 +35,6 @@ Nota: se o seu sistema operacional não estiver listado entre as versões da ext
 
 ## Instalação do SERVIDOR (ubuntu)
 <br/>
-<details><summary>👇click aqui</summary>
 
 #### Exemplo usando php8.1
 
@@ -76,7 +75,6 @@ Nota: a variável `server_port` é do novo servidor que estamos configurando e p
 ```
 php server.php
 ```
-</details>
 
 ## Instalação do SERVIDOR (windows)
 <br/>
