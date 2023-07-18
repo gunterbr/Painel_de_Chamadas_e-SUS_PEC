@@ -1,7 +1,7 @@
 # Painel de Chamadas para e-SUS PEC
 
 <p align="center">
-  <em>Painel de Chamadas para e-SUS PEC fornece a aplicação server-side/client-side completa e 100% em modo leitura do banco de dados PostgreSQL.Fique à vontade para personalizar a aplicação cliente fornecida ou apenas depurar e criar sua própria aplicação cliente.</em>
+  <em>Painel de Chamadas para e-SUS PEC fornece a aplicação server-side/client-side completa e 100% em modo leitura do banco de dados PostgreSQL.<br/>Fique à vontade para personalizar a aplicação cliente fornecida ou apenas depurar e criar sua própria aplicação cliente.</em>
 </p>
 
 ## Pré-requisitos
