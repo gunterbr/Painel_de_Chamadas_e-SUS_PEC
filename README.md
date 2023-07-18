@@ -1,12 +1,10 @@
 # Painel de Chamadas para e-SUS PEC
-<br/>
 
 <p align="center">
-  <em>Painel de Chamadas para e-SUS PEC fornece a aplicação server-side/client-side completa e 100% em modo leitura do banco de dados PostgreSQL.<br/>Fique à vontade para personalizar a aplicação cliente fornecida ou apenas depurar e criar sua própria aplicação cliente.</em>
+  <em>Painel de Chamadas para e-SUS PEC fornece a aplicação server-side/client-side completa e 100% em modo leitura do banco de dados PostgreSQL.Fique à vontade para personalizar a aplicação cliente fornecida ou apenas depurar e criar sua própria aplicação cliente.</em>
 </p>
 
 ## Pré-requisitos
-<br/>
 
 1. Instalação Apache + PHP;
 2. Composer;
@@ -34,7 +32,6 @@ c:\xampp\htdocs\painel_de_chamadas
 Nota: se o seu sistema operacional não estiver listado entre as versões da extensão, A APLICAÇÃO NÃO FUNCIONARÁ.
 
 ## Instalação do SERVIDOR (ubuntu)
-<br/>
 
 #### Exemplo usando php8.1
 
@@ -77,7 +74,7 @@ php server.php
 ```
 
 ## Instalação do SERVIDOR (windows)
-<br/>
+
 <details><summary>👇click aqui</summary>
 
 #### Exemplo usando o php7.4
@@ -196,6 +193,10 @@ Nota: a variável `server_port` e a mesma que configuramos no lado do servidor, 
 * Abra a aplicação cliente no navegador `localhost:8070/painel_de_chamadas/cliente` e verifique o console, que dirá se a conexão com o servidor foi bem sucedida.
 
 Nota: como você pode verificar, a aplicação cliente usa programação procedural. Ainda assim, o lado servidor já está em POO.
+
+## Instale o servidor como um serviço
+
+* Para não ter que iniciar o servidor manualmente, instale o arquivo `server.php` como um serviço no sistema.
 
 ## Contribua
 * Através de contribuição você recebe o arquivo de licença VITALÍCIO para sua instalação. São apenas R$ 23,00 para ajudar a manter o projeto e você recebe uma licença que não pode ser revogada, pois nenhum meio para isso foi implementado no código fonte.
