@@ -152,7 +152,7 @@ Você deve obter um resultado `Hello Word!` como esse:
 
 ##### Se houver erro, refaça os procedimentos. Então, continue.
 
-* Abra o arquivo composer.json e adicione a configuração para o php7.4:
+* Abra o arquivo `composer.json` em `c:\servicos\painel_de_chamadas\server\` e adicione a configuração para o php7.4:
 ```
 {
   "require": {
