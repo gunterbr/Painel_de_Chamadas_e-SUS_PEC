@@ -191,9 +191,9 @@ php7 server.php
 
 * Entre em `c:\xampp\htdocs\painel_de_chamadas\cliente` ou `/var/www/html/painel_de_chamadas/cliente` e edite o arquivo `config.json`.
 
-Nota: a variável `server_port` e a mesma que configuramos no lado do servidor, enquanto `server_host` é o host onde o php está servindo os dados, pode ser `localhost` ou `localhost:8070`.
+Nota: a variável `server_port` e a mesma que configuramos no lado do servidor, enquanto `server_host` é o host onde o php está servindo os dados: `localhost`.
 
-* Abra a aplicação cliente no navegador e verifique o console, que dirá se a conexão com o servidor foi bem sucedida.
+* Abra a aplicação cliente no navegador `localhost:8070/painel_de_chamadas/cliente` e verifique o console, que dirá se a conexão com o servidor foi bem sucedida.
 
 Nota: como você pode verificar, a aplicação cliente usa programação procedural. Ainda assim, o lado servidor já está em POO.
 
