@@ -127,6 +127,8 @@ Listen 8070
 
 Nota: aqui nós definimos a porta 8070 para a execução do php7.4. Portanto, ao iniciar o servidor posteriormente, lembre-se que devemos configurar o lado cliente para a mesma porta.
 
+* REINICIE o servidor Apache.
+
 * Copie a extensão loader `php_bolt.dll` de acordo com a versão do php para `c:\xampp\php7\ext`.
 
 * Adicione uma nova variável de ambiente do tipo PATH para o php7.4:
