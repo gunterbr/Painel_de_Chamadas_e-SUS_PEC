@@ -1,10 +1,10 @@
-# Painel de Chamadas para e-SUS PEC
+# 🎯 Painel de Chamadas para e-SUS PEC
 
 <p align="center">
   <em>Painel de Chamadas para e-SUS PEC fornece a aplicação server-side/client-side completa e 100% em modo leitura do banco de dados PostgreSQL.<br/>Fique à vontade para personalizar a aplicação cliente fornecida ou apenas depurar e criar sua própria aplicação cliente.</em>
 </p>
 
-## Pré-requisitos
+## ✏️ Pré-requisitos
 
 1. Instalação Apache + PHP;
 2. Composer;
@@ -31,7 +31,7 @@ c:\xampp\htdocs\painel_de_chamadas
 
 Nota: se o seu sistema operacional não estiver listado entre as versões da extensão, A APLICAÇÃO NÃO FUNCIONARÁ.
 
-## Instalação do SERVIDOR (ubuntu)
+## ⚡ Instalação do SERVIDOR (ubuntu)
 
 #### Exemplo usando php8.1
 
@@ -73,9 +73,9 @@ Nota: a variável `server_port` é do novo servidor que estamos configurando e p
 php server.php
 ```
 
-## Instalação do SERVIDOR (windows)
+## 🕔 Instalação do SERVIDOR (windows)
 
-<details><summary>👇click aqui</summary>
+<details><summary>👉 click aqui</summary>
 
 #### Exemplo usando o php7.4
 
@@ -184,7 +184,7 @@ php7 server.php
 ```
 </details>
 
-## Configurando a aplicação cliente
+## 💻 Configurando a aplicação cliente
 
 * Entre em `c:\xampp\htdocs\painel_de_chamadas\cliente` ou `/var/www/html/painel_de_chamadas/cliente` e edite o arquivo `config.json`.
 
@@ -194,13 +194,13 @@ Nota: a variável `server_port` e a mesma que configuramos no lado do servidor, 
 
 Nota: como você pode verificar, a aplicação cliente usa programação procedural. Ainda assim, o lado servidor já está em POO.
 
-## Instale o servidor como um serviço
+## ➿ Instale o servidor como um serviço
 
 * Para não ter que iniciar o servidor manualmente, instale o arquivo `server.php` como um serviço no sistema.
 
-## Contribua
+## 😘 Contribua
 * Através de contribuição você recebe o arquivo de licença VITALÍCIO para sua instalação. São apenas R$ 23,00 para ajudar a manter o projeto e você recebe uma licença que não pode ser revogada, pois nenhum meio para isso foi implementado no código fonte.
 
-#### CHAVE PIX => 95988028564
+##### * CHAVE PIX => 95988028564
 
 * Você ainda pode personalizar sua aplicação cliente da forma que desejar.
