@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+* {
+    font-family: 'Poppins', sans-serif;
+}
+.card {
+    border: unset;
+    border-radius: unset;
+}
+
+/*Click Unidade*/
+.btn-click {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+/*Unidade de Saúde*/
+#u {
+    font-size: 5rem;
+    font-weight: 600;
+    min-height: 20vh;
+    color: white;
+    background-color: midnightblue;
+}
+
+/*Class Card*/
+#p {
+    min-height: 35vh;
+    font-size: 2rem;
+    font-weight: 600;
+}
+#p > div > div > .card {
+    color: white;
+    background-color: midnightblue;
+    border: 2px solid midnightblue;
+}
+#p > div > div > .card > .card {
+    color: midnightblue;
+}
+#p .cidadao {
+    font-size: 2rem;
+}
+#p .profissional {
+    font-size: 1.5rem;
+}
+#p .local_tipo_hora {
+    font-size: 2rem;
+}
+
+/*Class button card*/
+#b {
+    min-height: 35vh;
+}
+
+/*Class list*/
+#l {
+    height: 35vh;
+    overflow-y: auto;
+    background-color: #EAECEE;
+}
+#l > div > div > .card {
+    min-height: 15vh;
+    padding: 0 10px 0 4px;
+}
+
+#b > div > div > .card, #l > div > div > .card {
+    background-color: #EAECEE;
+    border: 1px solid #34495E;
+}
+#b .cidadao, #l .cidadao {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+#b .profissional, #l .profissional {
+    font-size: 1rem;
+    font-weight: 600;
+}
+#b .local_tipo_hora, #l .local_tipo_hora {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+/*Últimos chamados*/
+#r {
+    min-height: 5vh;
+    font-size: 2rem;
+    font-weight: 600;
+    color: white;
+    background-color: green;
+}
+/*Chamados recentes e não encerrados*/
+#a {
+    min-height: 5vh;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: white;
+    background-color: #34495E;
+}
+
+.cidadao, .profissional {
+    width: 60%;
+}
+.local_tipo_hora {
+    position: absolute;
+    right: 0;
+    width: 40%;
+    height: 100%;
+    text-align: center;
+}
+
+#l .card {
+    min-height: 12vh;
+}
+
+.row > div > .card {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+/*Botão para mudar de unidade*/
+#change {
+    position: fixed;
+    top: 10px;
+    left: 0;
+    width: auto;
+}
+#change > a > i {
+    font-size: 2rem;
+    color: white;
+    rotate: -180deg;
+}
+#change > a > i:hover {
+    transform: scale(1.1);
+}
+
+#left > a > i {
+    font-size: 2rem;
+    color: midnightblue;
+}
+
+/*clock*/
+.clock {
+    position: fixed;
+    top: 10px;
+    right: 0;
+    width: auto;
+    font-size: 2rem;
+    font-weight: 600;
+    color: white;
+    text-align: right;
+}
+
+#p #local {
+    font-size: 3rem;
+}

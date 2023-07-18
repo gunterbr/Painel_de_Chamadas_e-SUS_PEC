@@ -1,0 +1,8 @@
+{
+  "require": {
+      "cboden/ratchet": "^0.4.3",
+      "react/socket": "^1.13",
+      "react/event-loop": "^1.4",
+      "react/stream": "^1.1.1"
+  }
+}
