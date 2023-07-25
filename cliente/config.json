@@ -1,9 +1,9 @@
 {
-    "db_host": "localhost",
-    "db_port": "5432",
-    "db_name": "esus",
-    "db_username": "postgres",
-    "db_password": "esus",
-    "server_port": "1234",
-    "server_host":"localhost"
+    "db_host" : "localhost",
+    "db_port" : "5432",
+    "db_name" : "esus",
+    "db_username" : "postgres",
+    "db_password" : "froiden",
+    "server_host" :"ws://localhost:1234",
+    "client_key" : "unique_id"
 }

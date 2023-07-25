@@ -122,7 +122,9 @@ Listen 8070
 </VirtualHost>
 ```
 
-Nota: aqui nós definimos a porta 8070 para a execução do php7.4. Portanto, ao iniciar o servidor posteriormente, lembre-se que devemos configurar o lado cliente para a mesma porta.
+Nota: aqui nós definimos a porta 8070 para a execução do php7.4. Dessa forma, o php7 será executado nesta porta com o apache. Se você executar um `phpinfo();` nesta porta, verá os dados dessa versão. Se você suprimir essa porta, verá os dados de uma versão instalada anteriormente, se for o caso.
+
+IMPORTANTE: não confunda a porta de execução do php7 com a porta que ele estará fornecendo os dados.
 
 * REINICIE o servidor Apache.
 
@@ -190,7 +192,7 @@ php7 server.php
 
 Nota: a variável `server_port` e a mesma que configuramos no lado do servidor, enquanto `server_host` é o host onde o php está servindo os dados: `localhost`.
 
-* Abra a aplicação cliente no navegador `localhost:8070/painel_de_chamadas/cliente` e verifique o console, que dirá se a conexão com o servidor foi bem sucedida.
+* Abra a aplicação cliente no navegador `localhost/painel_de_chamadas/cliente` e verifique o console, que dirá se a conexão com o servidor foi bem sucedida.
 
 Nota: como você pode verificar, a aplicação cliente usa programação procedural. Ainda assim, o lado servidor já está em POO.
 

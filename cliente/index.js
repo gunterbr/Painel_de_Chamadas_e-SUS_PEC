@@ -33,9 +33,10 @@ window.addEventListener('DOMContentLoaded', async function() {
         const { resData, resConfig } = await fetchData();
         window.data = resData;
         window.config = resConfig;
-
         // URL do servidor WebSocket
-        window.serverUrl = 'ws://' + resConfig.server_host + ':' + resConfig.server_port;
+        window.serverUrl = resConfig.server_host;
+        //client_key
+        window.client_key = resConfig.client_key;
         connect();
     } catch (error) {
         console.log('Erro ao carregar o arquivo data.json:', error);
@@ -59,7 +60,7 @@ let msg = 0;
 function sendButton(q) {
     msg = q;
     if (socket && socket.readyState === WebSocket.OPEN) {
-        socket.send(q);
+        socket.send(JSON.stringify({co_unidade:msg,client_key:window.client_key}));
     } else {
         console.log('A conexão não está aberta. Mensagem não enviada.');
     }
@@ -91,7 +92,7 @@ function connect() {
         console.log('Conexão estabelecida.');
         if(msg !== 0) {
             //Reenvia o id da Unidade em caso de reconexão com o servidor
-            socket.send(msg);
+            socket.send(JSON.stringify({co_unidade:msg,client_key:client_key}));
         }
     };
     
@@ -102,6 +103,7 @@ function connect() {
         
         // Faz o parsing do JSON para um array de objetos JavaScript
         const dataArray = JSON.parse(message);
+        console.log(dataArray);
         
         //Criando elementos no DOM
         let p = document.createElement('div');
@@ -207,7 +209,7 @@ function connect() {
     socket.onerror = function(error) {
         console.error('Erro na conexão:', error);
     };
-      
+    
     // Evento disparado quando a conexão é fechada
     socket.onclose = function(event) {
         $('#r').html('Serviço indisponível.');
