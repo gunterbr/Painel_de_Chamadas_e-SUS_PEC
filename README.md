@@ -33,6 +33,8 @@ Nota: se o seu sistema operacional não estiver listado entre as versões da ext
 
 ## ⚡ Instalação do SERVIDOR (ubuntu)
 
+[![Watch the video](https://i.ytimg.com/vi_webp/5r_So6NT_p4/maxresdefault.webp)](https://www.youtube.com/watch?v=5r_So6NT_p4/)
+
 #### Exemplo usando php8.1
 
 * Edite seu `php.ini` em `/etc/php/8.1/apache2` ou `/etc/php/8.1/cgi` ou `/etc/php/8.1/cli` ou `/etc/php/8.1/fpm`. Se você não conhece como seu servidor está configurado, edite todos estes arquivos adicionando apenas `extension=bolt` ao final do arquivo para evitar qualquer erro.
