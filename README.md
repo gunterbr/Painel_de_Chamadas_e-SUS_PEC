@@ -35,8 +35,7 @@ Nota: se o seu sistema operacional não estiver listado entre as versões da ext
 
 ## ⚡ Instalação do SERVIDOR (ubuntu)
 
-[![Watch the video](https://i.ytimg.com/vi_webp/5r_So6NT_p4/maxresdefault.webp)](https://youtu.be/JHSxVfDWX7I)
-
+<details><summary>👉 click aqui</summary>
 #### Exemplo usando php8.1
 
 * Edite seu `php.ini` em `/etc/php/8.1/apache2` ou `/etc/php/8.1/cgi` ou `/etc/php/8.1/cli` ou `/etc/php/8.1/fpm`. Se você não conhece como seu servidor está configurado, edite todos estes arquivos adicionando apenas `extension=bolt` ao final do arquivo para evitar qualquer erro.
@@ -76,10 +75,13 @@ Nota: a variável `server_port` é do novo servidor que estamos configurando e p
 ```
 php server.php
 ```
+</details>
+
+[![Watch the video](https://i.ytimg.com/vi_webp/5r_So6NT_p4/maxresdefault.webp)](https://youtu.be/JHSxVfDWX7I)
+
+
 
 ## 🕔 Instalação do SERVIDOR (windows)
-
-[![Watch the video](https://i.ytimg.com/vi_webp/5r_So6NT_p4/maxresdefault.webp)](https://youtu.be/5r_So6NT_p4)
 
 <details><summary>👉 click aqui</summary>
 
@@ -192,10 +194,13 @@ php7 server.php
 ```
 </details>
 
+[![Watch the video](https://i.ytimg.com/vi_webp/5r_So6NT_p4/maxresdefault.webp)](https://youtu.be/5r_So6NT_p4)
+
+
+
 ## 💻 Configurando a aplicação cliente
 
-[![Watch the video](https://i.ytimg.com/vi_webp/5r_So6NT_p4/maxresdefault.webp)](https://youtu.be/8MnedSUn6m4)
-
+<details><summary>👉 click aqui</summary>
 * Entre em `c:\xampp\htdocs\painel_de_chamadas\cliente` ou `/var/www/html/painel_de_chamadas/cliente` e edite o arquivo `config.json`.
 
 Nota: a variável `server_port` e a mesma que configuramos no lado do servidor, enquanto `server_host` é o host onde o php está servindo os dados: `localhost`.
@@ -203,6 +208,11 @@ Nota: a variável `server_port` e a mesma que configuramos no lado do servidor, 
 * Abra a aplicação cliente no navegador `localhost/painel_de_chamadas/cliente` e verifique o console, que dirá se a conexão com o servidor foi bem sucedida.
 
 Nota: como você pode verificar, a aplicação cliente usa programação procedural. Ainda assim, o lado servidor já está em POO.
+</details>
+
+[![Watch the video](https://i.ytimg.com/vi_webp/5r_So6NT_p4/maxresdefault.webp)](https://youtu.be/8MnedSUn6m4)
+
+
 
 ## ➿ Instale o servidor como um serviço
 
