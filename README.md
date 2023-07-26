@@ -4,6 +4,8 @@
   <em>Painel de Chamadas para e-SUS PEC fornece a aplicação server-side/client-side completa e 100% em modo leitura do banco de dados PostgreSQL.<br/>Fique à vontade para personalizar a aplicação cliente fornecida ou apenas depurar e criar sua própria aplicação cliente.</em>
 </p>
 
+[![Watch the video](https://i.ytimg.com/vi_webp/5r_So6NT_p4/maxresdefault.webp)](https://youtu.be/JppBKXHPz9Y)
+
 ## ✏️ Pré-requisitos
 
 1. Instalação Apache + PHP;
@@ -33,7 +35,7 @@ Nota: se o seu sistema operacional não estiver listado entre as versões da ext
 
 ## ⚡ Instalação do SERVIDOR (ubuntu)
 
-[![Watch the video](https://i.ytimg.com/vi_webp/5r_So6NT_p4/maxresdefault.webp)](https://www.youtube.com/watch?v=5r_So6NT_p4/)
+[![Watch the video](https://i.ytimg.com/vi_webp/5r_So6NT_p4/maxresdefault.webp)](https://youtu.be/JHSxVfDWX7I)
 
 #### Exemplo usando php8.1
 
@@ -76,6 +78,8 @@ php server.php
 ```
 
 ## 🕔 Instalação do SERVIDOR (windows)
+
+[![Watch the video](https://i.ytimg.com/vi_webp/5r_So6NT_p4/maxresdefault.webp)](https://youtu.be/5r_So6NT_p4)
 
 <details><summary>👉 click aqui</summary>
 
@@ -189,6 +193,8 @@ php7 server.php
 </details>
 
 ## 💻 Configurando a aplicação cliente
+
+[![Watch the video](https://i.ytimg.com/vi_webp/5r_So6NT_p4/maxresdefault.webp)](https://youtu.be/8MnedSUn6m4)
 
 * Entre em `c:\xampp\htdocs\painel_de_chamadas\cliente` ou `/var/www/html/painel_de_chamadas/cliente` e edite o arquivo `config.json`.
 
