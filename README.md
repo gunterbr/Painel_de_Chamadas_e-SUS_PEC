@@ -217,7 +217,9 @@ Nota: como você pode verificar, a aplicação cliente usa programação procedu
 
 [![Watch the video](https://i.ytimg.com/vi_webp/5r_So6NT_p4/maxresdefault.webp)](https://youtu.be/8MnedSUn6m4)
 
+## Cliente com SSL
 
+[![Watch the video](https://i.ytimg.com/vi_webp/5r_So6NT_p4/maxresdefault.webp)](https://youtu.be/1fZNQ4f96W0)
 
 ## ➿ Instale o servidor como um serviço
 
