@@ -233,3 +233,25 @@ Nota: como você pode verificar, a aplicação cliente usa programação procedu
 * Você ainda pode personalizar sua aplicação cliente da forma que desejar.
 
 Nota: se você chegou até o fim, o servidor e cliente estão se comunicando perfeitamente. Mas as informações só serão transmitidas com o arquivo da licença.
+
+# UPDATES
+### v3.1
+* Reformulação completa da aplicação cliente:
+```
+- Fullscreen automático 😉
+- Vídeos locais ou Youtube, com play e pause automáticos 🚀
+- Lista de espera 👏🏼
+- Histórico de chamadas, com status (em atendimento, chamada não atendida e atendimento finalizado) 😉
+- Classificação de risco colorida 👨‍🦼
+- Layout personalizável 😎
+- Consumo mínimo de recursos 🚀
+- Segurança com PIN para habilitar um novo dispositivo 📲
+- Configuração protegida por senha (sem banco de dados) 🤫
+- Painéis separados por unidade de saúde 😱
+```
+**Substitua o diretório ```cliente```!**
+
+* Adequação do Server
+**Substitua apenas ```config.json``` e ```server.php```. Sua licença ```source.php``` permanece válida!**
+
+* VERIFIQUE NOVAMENTE AS CONFIGURAÇÕES DE CONEXÃO EM AMBOS OS ARQUIVOS ```config.json```
