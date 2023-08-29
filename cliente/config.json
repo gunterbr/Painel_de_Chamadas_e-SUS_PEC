@@ -1,16 +1,11 @@
 {
-    "db_host": "localhost",
-    "db_port": 5432,
-    "db_name": "esus",
-    "db_username": "postgres",
-    "db_password": "froiden",
-    "server_host": "ws:\/\/localhost:1234",
+    "server_host": "ws:\/\/localhost:1234\/ws\/painel",
     "client_pin": "1234",
     "show_clock": true,
     "show_ads": true,
     "show_historico": true,
-    "show_listaEspera": true,
     "show_destaque2": false,
+    "show_listaEspera": true,
     "overflowY": false,
     "quantidade_destaque1": 2,
     "quantidade_destaque2": 0,
@@ -23,7 +18,9 @@
     "anunciar_nome": true,
     "anunciar_nome_social": false,
     "texto_aposNome": "dirija-se",
-    "ads_type": "local",
+    "ads_type": "carousel",
+    "ads_src_volume": 50,
     "ads_src_yt": "G7yGdmojzEw",
-    "ads_src_lc": ".\/assets\/video\/rio.mp4"
+    "ads_src_lc": ".\/assets\/video\/rio.mp4",
+    "ads_src_sl": ".\/assets\/img\/banner02.png,.\/assets\/img\/banner03.png,.\/assets\/img\/banner04.png,.\/assets\/img\/banner05.png"
 }

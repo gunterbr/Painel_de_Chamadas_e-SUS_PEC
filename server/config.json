@@ -5,9 +5,10 @@
     "db_username": "postgres",
     "db_password": "froiden",
     "server_port": "1234",
+    "time": 2,
     "only_calls": false,
     "client_pin": "1234",
     "client_list": {
-        "default": true
+        "defaul": true
     }
 }
