@@ -1,12 +1,17 @@
 {
-    "server_host": "ws:\/\/localhost:1234\/ws\/painel",
+    "server_host": "ws:\/\/localhost:1234\/",
     "client_pin": "1234",
     "show_clock": true,
     "show_ads": true,
     "show_historico": true,
     "show_destaque2": false,
     "show_listaEspera": true,
-    "overflowY": false,
+    "overflowY": true,
+    "ads_type": "local",
+    "ads_src_volume": 50,
+    "ads_src_yt": "G7yGdmojzEw",
+    "ads_src_lc": ".\/assets\/video\/rio.mp4",
+    "ads_src_sl": ".\/assets\/img\/banner02.png,.\/assets\/img\/banner03.png,.\/assets\/img\/banner04.png,.\/assets\/img\/banner05.png",
     "quantidade_destaque1": 2,
     "quantidade_destaque2": 0,
     "mostrar_nome": true,
@@ -18,9 +23,5 @@
     "anunciar_nome": true,
     "anunciar_nome_social": false,
     "texto_aposNome": "dirija-se",
-    "ads_type": "carousel",
-    "ads_src_volume": 50,
-    "ads_src_yt": "G7yGdmojzEw",
-    "ads_src_lc": ".\/assets\/video\/rio.mp4",
-    "ads_src_sl": ".\/assets\/img\/banner02.png,.\/assets\/img\/banner03.png,.\/assets\/img\/banner04.png,.\/assets\/img\/banner05.png"
+    "qtd_chamadas": 1
 }
