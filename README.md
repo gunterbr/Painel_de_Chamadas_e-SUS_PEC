@@ -235,6 +235,9 @@ Nota: como você pode verificar, a aplicação cliente usa programação procedu
 Nota: se você chegou até o fim, o servidor e cliente estão se comunicando perfeitamente. Mas as informações só serão transmitidas com o arquivo da licença.
 
 # UPDATES
+### v4.0b1
+* bugFix e melhorias
+
 ### v3.1
 * Reformulação completa da aplicação cliente:
 ```
