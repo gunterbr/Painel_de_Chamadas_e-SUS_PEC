@@ -235,6 +235,10 @@ Nota: como você pode verificar, a aplicação cliente usa programação procedu
 Nota: se você chegou até o fim, o servidor e cliente estão se comunicando perfeitamente. Mas as informações só serão transmitidas com o arquivo da licença.
 
 # UPDATES
+### v4.0
+* Correção do bug onde a voz repetia os chamados sem parar a partir de 50 chamados
+* Alteração de ID show_ads por conflito com o user-agent
+
 ### v4.0b1
 * bugFix e melhorias
 
