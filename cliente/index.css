@@ -7,6 +7,24 @@ html,body {
     height: 100%;
     box-sizing: border-box;
 }
+body .page-config, body .page-noConfig {
+    font-size: 0.9vw;
+}
+body .page-config .alert {
+    --bs-alert-bg: unset;
+    --bs-alert-border-color: unset;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.page-config form {
+    display: contents !important;
+}
+.form-control, .form-select {
+    font-size: unset;
+}
+.card-header {
+    background-color: gainsboro !important;
+    border-bottom: unset;
+}
 .w20 {width: 20%;}
 .w25 {width: 25%;}
 .w35 {width: 35%;}
@@ -294,6 +312,8 @@ video {
   
   .carousel-container {
       display: flex;
+      white-space: nowrap;
+      height: 100%;
       transition: transform 0.5s ease-in-out;
   }
   
@@ -302,8 +322,10 @@ video {
   }
   
   .carousel-slide img {
+      flex-shrink: 0;
       width: 100%;
-      height: auto;
+      height: 100%;
+      object-fit: fill;
   }
 
   .noApiSpeak {

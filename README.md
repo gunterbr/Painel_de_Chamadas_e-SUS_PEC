@@ -225,6 +225,62 @@ Nota: como você pode verificar, a aplicação cliente usa programação procedu
 
 * Para não ter que iniciar o servidor manualmente, instale o arquivo `server.php` como um serviço no sistema.
 
+### Linux
+```
+sudo nano /etc/systemd/system/nome_painel.service
+```
+
+Adicione e salve:
+```
+[Unit]
+Description=Meu Painel de Chamadas
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/php /usr/painel_services/server/server.php
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+```
+
+```
+sudo systemctl daemon-reload
+```
+```
+sudo systemctl start nome_painel
+```
+```
+sudo systemctl enable nome_painel
+```
+```
+sudo systemctl status nome_painel
+```
+
+### Windows
+#### 1º Inicie o PowerShell como ADM
+
+#### 2º Instale o Chocolatey (pule para 3º se já possuir)
+```
+Set-ExecutionPolicy AllSigned
+```
+```
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+```
+
+#### 3º Instale o NSSM
+```
+choco install nssm
+```
+
+#### 4º Crie o serviço com NSSM
+```
+nssm install NomeDoServico C:\caminho\para\seu\php.exe C:\caminho\para\seu\server.php
+```
+```
+nssm start NomeDoServico
+```
+
 ## 😘 Contribua
 * Contribua e receba a licença VITALÍCIA. Apenas **R$ 23,00** para ajudar a manter o projeto.
 
@@ -235,6 +291,11 @@ Nota: como você pode verificar, a aplicação cliente usa programação procedu
 Nota: se você chegou até o fim, o servidor e cliente estão se comunicando perfeitamente. Mas as informações só serão transmitidas com o arquivo da licença.
 
 # UPDATES
+### v4.1
+* Possibilidade de priorizar nome social na exibição e chamada
+* Melhoria do Carousel para imagens WideScreen
+* Pequenos ajustes
+
 ### v4.0
 * Correção do bug onde a voz repetia os chamados sem parar a partir de 50 chamados
 * Alteração de ID show_ads por conflito com o user-agent
