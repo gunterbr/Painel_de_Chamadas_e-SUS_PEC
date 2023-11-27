@@ -291,6 +291,12 @@ nssm start NomeDoServico
 Nota: se você chegou até o fim, o servidor e cliente estão se comunicando perfeitamente. Mas as informações só serão transmitidas com o arquivo da licença.
 
 # UPDATES
+### v4.2
+* Iniciar automaticamente sem precisar clicar, com áudio e vídeo local e youtube
+* Vídeos em loop
+* Sem recomendação de vídeos
+* Fixação de unidade e lista de profissionais
+
 ### v4.1
 * Possibilidade de priorizar nome social na exibição e chamada
 * Melhoria do Carousel para imagens WideScreen

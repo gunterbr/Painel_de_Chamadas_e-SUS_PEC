@@ -194,6 +194,7 @@ body .page-config .alert {
 #left > a > i {
     color: midnightblue;
     margin-top: 1rem !important;
+    font-size: 1.2vw;
 }
 
 /*clock*/
