@@ -4,7 +4,7 @@
     "unique_unit": true,
     "id_unidade": 5,
     "painel_auto": true,
-    "enabled_auto_play": true,
+    "enabled_audio": true,
     "unique_list": false,
     "id_lista": 2,
     "show_clock": true,
