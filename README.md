@@ -291,18 +291,22 @@ nssm start NomeDoServico
 Nota: se você chegou até o fim, o servidor e cliente estão se comunicando perfeitamente. Mas as informações só serão transmitidas com o arquivo da licença.
 
 # UPDATES
-### v4.2
+### v4.0.3
+* Versão final em PHP
+* O projeto seguirá na versão JAVA - para informações entrar em contato.
+
+### v4.0.2
 * Iniciar automaticamente sem precisar clicar, com áudio e vídeo local e youtube
 * Vídeos em loop
 * Sem recomendação de vídeos
 * Fixação de unidade e lista de profissionais
 
-### v4.1
+### v4.0.1
 * Possibilidade de priorizar nome social na exibição e chamada
 * Melhoria do Carousel para imagens WideScreen
 * Pequenos ajustes
 
-### v4.0
+### v4.0.0
 * Correção do bug onde a voz repetia os chamados sem parar a partir de 50 chamados
 * Alteração de ID show_ads por conflito com o user-agent
 

@@ -1,7 +1,7 @@
 {
-    "server_host": "ws:\/\/localhost:1234\/",
+    "server_host": "ws:\/\/localhost:1234\/ws\/painel",
     "client_pin": "1234",
-    "unique_unit": true,
+    "unique_unit": false,
     "id_unidade": 5,
     "painel_auto": true,
     "enabled_audio": true,
