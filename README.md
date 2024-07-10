@@ -1,3 +1,5 @@
+# ATENÇÃO: Licenciamento da versão PHP ENCERRADO!
+
 # 🎯 Painel de Chamadas para e-SUS PEC
 
 <p align="center">
